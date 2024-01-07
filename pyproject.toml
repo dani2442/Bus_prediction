@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "passenger-alighted"
+version = "0.1.0"
+description = ""
+authors = ["Daniel <daniel.l.m.2442.123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jax = "^0.4.23"
+matplotlib = "^3.8.2"
+jaxlib = "^0.4.23"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
